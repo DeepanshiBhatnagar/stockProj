@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -14,7 +15,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +36,24 @@
   to {
     transform: rotate(360deg);
   }
+}
+/* 
+.firstpage{
+  background-color: aqua;
+} */
+.form{
+  justify-content: space-between;
+}
+
+/*
+three pages
+1 - front webpage login
+2 - login page 
+3 - 3 dropdown 
+*/
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+ 
 }
