@@ -35,7 +35,7 @@ class FlavorForm extends React.Component {
         <label>
           Pick your favorite :{" "}
           <select
-            className="dropdown"
+            className="dropdown custom-select""
             multiple={true}
             value={this.state.value}
             onChange={this.handleChange}
