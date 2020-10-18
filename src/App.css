@@ -52,8 +52,21 @@ three pages
 3 - 3 dropdown 
 */
 
-.dropdown {
-  position: relative;
-  display: inline-block;
- 
+
+ 	select.dropdown {
+    display: block !important;
+
+}
+.custom-select {
+    display: inline-block;
+    width: 250px;
+    padding: .15px 15px 15px ;
+    font-size: 20px;;   
+    color: #495057; 
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+	  position:absolute;
 }
